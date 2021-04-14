@@ -370,6 +370,28 @@ template {
   margin-right: auto;
   margin-left: 108px;
 }
+.header-bottom {
+  background-color: #0A223D;
+}
+.header-menu__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 31px 0;
+  color: #fff;
+}
+.header-menu__link {
+  color: inherit;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.logo {
+  width: 177px;
+}
 
 .search {
   position: relative;
