@@ -485,4 +485,25 @@ template {
   .header-bottom, .header-search, .header-user {
     display: none;
   }
+  .header-burger {
+    display: flex;
+    width: 16px;
+    height: 11px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border: 0;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  .header-burger__line {
+    width: 16px;
+    height: 1px;
+    background: #333333;
+  }
+}
+@media (max-width: 576px) {
+  .logo {
+    width: 99px;
+  }
 }/*# sourceMappingURL=style.css.map */
