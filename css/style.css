@@ -462,7 +462,6 @@ template {
   }
   .header-search {
     margin-left: auto;
-    max-width: 340px;
   }
   .header-menu__list {
     padding: 23px 0;
@@ -470,6 +469,10 @@ template {
   .header-menu__link {
     font-size: 12px;
     line-height: 15px;
+  }
+
+  .search__input {
+    width: 340px;
   }
 
   .logo {
@@ -489,6 +492,7 @@ template {
     display: flex;
     width: 16px;
     height: 11px;
+    padding: 0;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
