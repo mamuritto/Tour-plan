@@ -379,7 +379,7 @@ template {
 .header-bottom {
   background-color: #0A223D;
 }
-.header-menu__list {
+.header-bottom__list {
   list-style: none;
   display: flex;
   align-items: center;
@@ -388,7 +388,7 @@ template {
   padding: 31px 0;
   color: #fff;
 }
-.header-menu__link {
+.header-bottom__link {
   color: inherit;
   font-size: 14px;
   line-height: 18px;
@@ -551,10 +551,10 @@ template {
   .header-search {
     margin-left: auto;
   }
-  .header-menu__list {
+  .header-bottom__list {
     padding: 23px 0;
   }
-  .header-menu__link {
+  .header-bottom__link {
     font-size: 12px;
     line-height: 15px;
   }
