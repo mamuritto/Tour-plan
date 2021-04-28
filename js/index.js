@@ -3,7 +3,7 @@ const swiper = new Swiper('.swiper-container', {
   direction: 'horizontal',
   loop: true,
 
-  effect: 'cube',
+  effect: 'active',
   // Navigation arrows
   navigation: {
     nextEl: '.slider-button__next',
