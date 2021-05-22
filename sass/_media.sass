@@ -1,10 +1,9 @@
 @media ( max-width: 1200px )
   .container
     max-width: 960px
-  .slider
-    width: 590px
-  .swiper
-    &-slide
+  .hotel
+    &-slider
+      width: 590px
       &__image
         height: 100%
         width: 100%
@@ -36,12 +35,17 @@
       margin-bottom: 30px
     &-right
       flex-direction: row
-  .slider
-    width: 100%
+    &-slider
+      width: 100%
+
   .booking
     width: 340px
   .map
     width: 340px
+  .reviews
+    &-slider
+      &__item
+        max-width: 580px
 @media  ( max-width: 768px )
   .container
     max-width: 576px
@@ -85,8 +89,8 @@
       &__offer
         margin-left: 0
         order: -1
-  .slider
-    height: 350px
+    &-slider
+      height: 350px
   .booking
     width: 100%
   .map
@@ -99,14 +103,47 @@
       width: 92%
     &-title
       margin-bottom: 37px
+  .reviews
+    padding-bottom: 60px
+    &-slider
+      &__item
+        padding: 0 30px 30px
+        &::after
+          display: none
+        &::before
+          display: none
+      &__button
+        top: 45px
+        left: 50%
+        transform: translate(-50%, -50%)
+        &--prev
+          margin-left: -65px
+        &--next
+          margin-left: 65px
+      &__text
+        font-style: normal
+        font-weight: normal
+        font-size: 12px
+        line-height: 160%
+        text-align: justify
+    &-title
+      margin-bottom: 50px
+      font-style: normal
+      font-weight: bold
+      font-size: 30px
+      line-height: 38px
+      text-align: center
+      text-transform: uppercase
+
 @media  ( max-width: 576px )
   .logo
     width: 99px
-  .slider
-    height: 250px
+
   .hotel
     &__slider
       margin-bottom: 20px
+    &-slider
+      height: 250px
   .newsletter
     padding: 76px 0 83px 0
     &__title
@@ -125,3 +162,15 @@
         text-transform: uppercase
   .subscribe
     width: 100%
+  .reviews
+    padding-bottom: 50px
+    &-slider
+    &-title
+      font-style: normal
+      font-weight: bold
+      font-size: 18px
+      line-height: 23px
+      text-align: center
+      text-transform: uppercase
+      margin-bottom: 42px
+@media  ( max-width: 320px )
