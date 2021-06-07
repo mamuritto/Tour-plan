@@ -23,3 +23,9 @@ const reviewsSlider = new Swiper('.reviews-slider', {
     prevEl: '.reviews-slider__button--prev',
   },
 });
+
+var burger = document.querySelector(".header-burger");
+burger.addEventListener('click', function(){
+  console.log('Клик');
+  document.querySelector(".header-bottom").classList.toggle('header-bottom__visible');
+})

@@ -13,21 +13,21 @@
   <title>Document</title>
 </head>
 <body>
-  <header class="header">
+  <header class="header header__mobile_fixed">
     <div class="container">
       <div class="header__top">
         <a href="#!" class="logo">
           <img src="img/horizontal-logo.svg" alt="Logo: Best Tour Plan" class="logo__image">
         </a>
 
-        <form action="" class="search header-search">
+        <form action="" class="search header-search header-search__mobile_hidden">
           <input type="text" placeholder="Search Location" class="search__input">
           <button class="search__button">
             <img src="img/search.svg" alt="Icon: search">
           </button>
         </form>
 
-        <a href="#!" class="user header-user">
+        <a href="#!" class="user header-user header-user__mobile_hidden">
           <img src="img/avatar.jpg" alt="Avatar: Nathan" class="user__avatar"/>
           <span class="user__name">Nathan</span>
         </a>
@@ -41,9 +41,24 @@
 
       
     </div>
-    <div class="header-bottom">
+    <div class="header-bottom ">
       <div class="container">
         <ul class="header-bottom__list">
+          <li class="header-bottom__item header-bottom__item__mobile_visible">
+            <a href="#!" class="user header-user header-user__mobile_visible">
+              <img src="img/avatar.jpg" alt="Avatar: Nathan" class="user__avatar" />
+              <span class="user__name user__name_light">Nathan</span>
+            </a>
+          </li>
+
+          <li class="header-bottom__item header-bottom__item__mobile_visible">
+            <form action="" class="search header-search header-search__mobile_visible">
+              <input type="text" placeholder="Search Location" class="search__input">
+              <button class="search__button">
+                <img src="img/search.svg" alt="Icon: search">
+              </button>
+            </form>
+          </li>
           <li class="header-bottom__item">
             <a href="#!" class="header-bottom__link">All Deals</a>
           </li>
@@ -426,8 +441,8 @@
             <textarea 
               class="footer__message" 
               cols="30" rows="10" 
-              placeholder="Message">
-            </textarea>
+              placeholder="Message"
+            ></textarea>
             <button class="button footer__button" type="submit">Send</button>
             <span class="footer__info">* Required Fields</span>
           </form>
